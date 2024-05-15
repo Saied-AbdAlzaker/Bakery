@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Alegreya Sans";
+}
+.home{
+    color: #fff;
+}
+/* NavBar */
+.home .navbar{
+    
+}
+.home .navbar .logo{
+    float: left;
+}
+.home .navbar .logo img{
+    padding: 25px 25px;
+    width: 60%;
+    /* display: inline-block; */
+}
+.home .navbar .menu .list-menu{
+    margin: 15px 50px 0px 0px;
+    float: right;
+}
+.home .navbar .menu .list-menu li{
+    display: inline-block;
+    padding: 10px;
+    margin: 15px 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.home .navbar .menu a{
+    text-decoration: none;
+    color: #fff;
+}
+/* Header */
+.header{
+    font-family: 'Alegreya', serif;
+    height: 100vh;
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    padding-top: 150px;
+    line-height: 60px;
+}
+.header p{
+    font-size: 24px;
+}
+.header h1{
+    font-size: 64px;
+    font-family: "Alegreya";
+    font-weight: 400;
+}
+.color-white{
+    color: #fff;
+}
+.btn{
+    color: #fff;
+    padding: 15px 30px;
+    margin: 30px 5px;
+    border-radius: 5%;
+}
+.btn a{
+    text-decoration: none;
+    color: #fff;
+}
+.btn1{
+    background-color: tan;
+    border: 2px solid tan;
+}
+.btn2{
+    background-color: transparent;
+    border: 2px solid white;
+}
+/* Who we are */
+.Who-we-are{
+    /* background-color: aqua; */
+    display: inline-block;
+    margin: 50px 50px;
+    
+}
+.Who-we-are img{
+    width: 40%;
+    margin: 0px 20px;
+}
+.Who-we-are .who-text{
+    display: inline-block;
+    width: 55%;
+    padding: 0px 40px;
+    /* margin: 0px 20px; */
+    color: #686868;
+}
+.who-text h2 {
+    padding-bottom: 30px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #303030;
+}
+
+.who-text p {
+    display: block;
+    line-height: 35px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.icon-text li {
+    list-style: none;
+}
+.who-text li img{
+    width: 5%;    
+}
+.icon-text li p{
+    display: inline-block;
+    font-size: 20px;
+    color: #686868;
+}
+
+/*  Our Location  */
+.our{
+    background-color: #f8f8f8;
+    width: 100%;
+    padding: 20px 20px;
+}
+.our .our-text{
+    font-size: 17px;
+    display: inline-block;
+    width: 55%;
+    padding: 80px;
+    line-height: 30px;
+}
+.our h2{
+    margin-bottom: 50px;
+}
+.our .text1{
+    margin-bottom: 50px ;
+    color: #686868;
+}
+.our .text2{
+    padding: 0px 0px 50px 0px;
+    color: #686868;
+}
+.our .our-img {
+    display: inline-block;
+    width: 40%;
+    padding: 50px 20px 0px 20px ;
+}
+/* Our Baking */
+.baking-text{
+    text-align: center;
+    line-height: 50px;
+}
+.baking-text h2{
+    font-family: "Alegreya";
+    color: #303030;
+    font-size: 30px;
+    font-weight: 400;
+}
+.baking-text p{
+    font-size: 17px;
+    color: #888;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    font-family: "Alegreya";
+}
+.our-baking{
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    /* padding: 10px;
+    border: 1px solid red; */
+}
+.inner{
+    margin: 10px;
+}
+.clear-fix{
+    clear: both;
+}
+.our-baking img, .our-baking p{
+    width: 90%;
+    margin-bottom: 10px;
+}
+.our-baking h3{
+    font-size: 22px;
+    font-weight: 400;
+    color: #686868;
+}
+.our-baking p{
+    line-height: 30px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #686868;
+}
+
+/* Contact Information */
+.contact{
+    background-color: #f8f8f8;
+    padding: 40px;
+
+}
+.contact .contact-text{
+   float: left;
+   width: 50%;
+   margin: 20px;
+}
+.contact .contact-text h2{
+    font-family: "Alegreya";
+    font-weight: 400;
+    font-size: 25px;
+    color: #303030;
+    line-height: 100px;
+}
+.contact .contact-text p{
+    font-size: 17px;
+    line-height: 35px;
+    color: #686868;
+}
+.contact .contact-text span{
+    font-size: 17px;
+    line-height: 50px;
+    color: #686868;
+}
+.contact .contact-text ul li{
+    list-style: none;
+}
+.contact .contact-text ul li img{
+    width: 10%;
+}
+.contact .contact-text ul li p{
+    display: inline-block;
+    font-size: 20px;
+     color: #686868;
+}
+.contact .contact-img{
+}
+
+/*  About us */
+.footer{
+    background-color: #303030;
+    color: #fff;
+    padding: 30px;
+}
+.footer .list{
+    float: left;
+    width: 20%;
+    margin: 20px;
+}
+.footer .list h4{
+    font-family: "Alegreya";
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+.footer .list p,li{
+    font-family: "Alegreya Sans";
+    color: #969696;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.86em;
+    margin-bottom: 20px;
+    list-style: none;
+}
+.footer .list img{
+    width: 25px;
+}
+.footer .list span{
+    display: block;
+}
+.footer .list a{
+    text-decoration: none;
+    color: #969696;
+}
+.footer .list p{
+    margin-left: 10px;
+}
+.hr{
+    width: 250px;
+    margin-bottom: 10px;
+    border: 1px solid #869696;
+}
+/* footer-bottom */
+.footer .footer-bottom{
+    text-align: center;
+    
+}
+.footer .footer-bottom .footer-image{
+    margin-bottom: 25px;
+    
+}
+.footer .footer-bottom .copy-right{
+    color: #969696;
+    
+}
+.footer .footer-bottom .social a img{
+    width: 3%;
+    margin: 5px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.footer .list .f-list .phase{
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid #ddd;
+    float: left;
+    margin-right: 10px;
+}
+.footer .list .s-list .phase{
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid #ddd;
+    float: left;
+    margin-right: 10px;
+}
+
